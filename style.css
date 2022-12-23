@@ -1,0 +1,343 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+figure.snip1390 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+figure.snip1390 figcaption {
+  width: 100%;
+}
+
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+
+.navbutton {
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  font-size: small;
+  background-color: rgb(192, 38, 69);
+}
+
+.fa {
+  padding: 5px;
+  font-size: medium;
+}
+
+.homehead {
+  background-color: orange;
+  color: rgb(192, 38, 69);
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* ---------------------------Love at first side------------------------------------------------- */
+.homehead {
+  color: rgb(192, 38, 69);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+.homehead span {
+  transition: 0.5s ease-out;
+}
+
+.homehead:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.homehead:hover span:nth-child(1):after {
+  content: "'";
+}
+
+.homehead:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.homehead:hover span {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0);
+}
+
+/* --------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif
+}
+
+body {
+  /* margin-top: 30px; */
+  background-color: #eee;
+}
+
+/* .container {
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center
+} */
+
+p {
+  margin: 0px
+}
+
+#card1 {
+  width: 260px;
+  height: 520px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden
+}
+
+.card .backgroundEffect {
+  bottom: 0;
+  height: 0px;
+  width: 100%
+}
+
+.card:hover {
+  color: rgb(192, 38, 69);
+  transform: scale(1.025);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+  bottom: 0;
+  height: 320px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: orange;
+  animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+  0% {
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%
+  }
+
+  50% {
+    height: 80px;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 75%
+  }
+
+  75% {
+    height: 160px;
+    border-top-left-radius: 85%;
+    border-top-right-radius: 85%
+  }
+
+  100% {
+    height: 320px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%
+  }
+}
+
+h2 {
+  font-family: monospace
+}
+
+.card .pic {
+  position: relative
+}
+
+.card .pic img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover
+}
+
+.card .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 70px;
+  background-color: orange;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  transition: all ease
+}
+
+.card .date .day {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.card .date .month,
+.card .date .year {
+  font-size: 10px
+}
+
+.card .text-muted {
+  font-size: 12px
+}
+
+.card:hover .text-muted {
+  color: #fff !important
+}
+
+.card .content {
+  padding: 0 20px
+}
+
+.card .content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: orange;
+  border-radius: 25px;
+  font-size: 12px;
+  border: none
+}
+
+.card:hover .content .btn {
+  background: #fff;
+  color: orange;
+  box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .btn .fas {
+  font-size: 10px;
+  padding-left: 5px
+}
+
+.card .content .foot .admin {
+  color: orange;
+  font-size: 12px
+}
+
+.card:hover .content .foot .admin {
+  color: #fff
+}
+
+.card .content .foot .icon {
+  font-size: 12px
+}
+
+/* ---------HAPPY CUSTOMER----------- */
+.homehead {
+  color: rgb(10, 10, 10);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.homehead span {
+  transition: 0.5s ease-out;
+}
+
+.homehead:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.homehead:hover span:nth-child(1):after {
+  content: "'";
+}
+
+.homehead:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.homehead:hover span {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 247, 247), 0 0 20px rgb(4, 20, 168), 0 0 40px rgb(9, 12, 153);
+}
+.footer{
+  background-color: orange;
+}

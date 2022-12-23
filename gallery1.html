@@ -1,0 +1,598 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="aboutus.html">
+  <!-- ------------------------button links(place order)------------------------------------------ -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Default Theme -->
+  <link rel="stylesheet" href="assets/owl.carousel.css">
+
+  <!-- You can use latest version of jQuery  -->
+  <script src="jquery-1.9.1.min.js"></script>
+
+  <!-- Include js plugin -->
+  <script src="owl.carousel.js"></script>
+  <!-- <link href="style.scss" rel="stylesheet/scss" type="text/css"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery1.css">
+
+  <title>Gallery</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg p-0 ">
+    <div class="container-fluid bg-warning">
+      <a class="navbar-brand nav-30 mb-3" href="#"><img src="images/sweet_log06-free-img.png" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="abc" class="collapse navbar-collapse text-lg-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="aboutus.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery1.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="ourcakes.html">OUR CAKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="team.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactus.html">CONTACT US</a>
+          </li>
+        </ul>
+        <!-- <button type="button" class="btn btn-danger">PLACE ORDER</button> -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+          PLACE ORDER
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="bg-warning spinner-border-sm" class="modal-header">
+                <!-- <h5 class="modal-title" id="exampleMo  dalLongTitle">Modal title</h5> -->
+
+                <!-- x-x-x-x-x-xx-x-x-x-x-xx-x-x---form------x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x- -->
+                <form class="bg-warning" action="">
+                  <section class="order-form my-4 mx-4">
+                    <div class="container pt-4">
+
+                      <div class="row">
+                        <div class="col-12">
+                          <h1>DETAILS REQUIRED</h1>
+                          <span>with some explanation below</span>
+                          <hr class="mt-1">
+                        </div>
+                        <div class="col-12">
+
+                          <div class="row mx-4">
+                            <div class="col-12 mb-2">
+                              <label class="order-form-label">Name</label>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                              <input class="order-form-input" placeholder="First">
+                            </div>
+                            <div class="col-12 col-sm-6 mt-2 mt-sm-0">
+                              <input class="order-form-input" placeholder="Last">
+                            </div>
+                          </div>
+                          <div class="row mx-4">
+                            <div class="col-12 mb-2 ml-5">
+                              <label type="email" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">Email</label>
+                            </div>
+                            <div>
+                              <input type="email" placeholder="Enter email">
+                            </div>
+                          </div>
+                          <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                              <label class="order-form-label" type="date" for="date-picker-example">Date</label>
+                            </div>
+                            <div class="col-12">
+                              <input class="order-form-input datepicker" placeholder="Selected date" type="text"
+                                id="date-picker-example">
+                            </div>
+                          </div>
+                          <div>
+                            <label for="item"><b>Select Your Items:</b></label>
+                            <label for="cakes">CAKES</label>
+                            <input type="checkbox" name="SELECT YOUR ITEMS" id="cakes">
+                            <label for="cakes">CupCakes</label>
+                            <input type="checkbox" name="SELECT YOUR ITEMS" id="cakes">
+                            <label for="cakes">Donuts</label>
+                            <input type="checkbox" name="SELECT YOUR ITEMS" id="cakes">
+                          </div><br>
+                          <div>
+                            <label for=""><b>CAKE FLAVORS:</b></label>
+                            <select name="" id="">
+                              <option value="">None</option>
+                              <option value="">Chocolate</option>
+                              <option value="">Vanilla</option>
+                              <option value="">Blue Velvet</option>
+                              <option value="">Strawberry</option>
+                              <option value="">Coconut</option>
+                              <option value="">Cookies and Cream</option>
+                            </select>
+                          </div>
+                          <div>
+                            <label for=""> <b>CUP-CAKE FLAVORS:</b></label>
+                            <select name="" id="">
+                              <option value="">None</option>
+                              <option value="">Chocolate Cream Pie</option>
+                              <option value="">Mad Cow</option>
+                              <option value="">Strawberry ShortCake</option>
+                              <option value="">Apple Crumble</option>
+                              <option value="">Classic Vanilla</option>
+                              <option value="">Black Bottom</option>
+                            </select>
+                          </div>
+                          <div>
+                            <label for=""> <b>DONUTS:</b></label>
+                            <select name="" id="">
+                              <option value="">None</option>
+                              <option value="">Nutella</option>
+                              <option value="">Oreo CheeseCake</option>
+                              <option value="">Caramel Apple</option>
+                              <option value="">Cosmic Brownie</option>
+                              <option value="">Dirt Worm</option>
+                              <option value="">Smores</option>
+                            </select>
+                          </div>
+
+                          <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                              <label class="order-form-label">Select Your City</label>
+                              <select name="" id="">
+                                <option value="">Karachi</option>
+                                <option value="">Hyderabad</option>
+                                <option value="">Islamabad</option>
+                                <option value="">Faislabad</option>
+                                <option value="">Peshawar</option>
+                                <option value="">Quetta</option>
+                                <option value="">Multan</option>
+                              </select><br>
+                              <label class="order-form-label">Select Your Area</label>
+                              <select name="" id="">
+                                <option value="">Saddar</option>
+                                <option value="">Qasimabad</option>
+                                <option value="">Bahria Town</option>
+                                <option value="">Tower</option>
+                                <option value="">Attock</option>
+                                <option value="">Industry Line</option>
+                                <option value="">Motorway</option>
+                              </select>
+                            </div>
+                            <div class="col-12">
+                              <input class="order-form-input" placeholder="Street Address">
+                            </div>
+                            <div class="col-12 mt-2">
+                              <input class="order-form-input" placeholder="Street Address Line 2">
+                            </div>
+                            <div class="col-12 col-sm-6 mt-2 pr-sm-2">
+                              <input class="order-form-input" placeholder="City">
+                            </div>
+                            <div class="col-12 col-sm-6 mt-2 pl-sm-0">
+                              <input class="order-form-input" placeholder="Region">
+                            </div>
+                            <div class="col-12 col-sm-6 mt-2 pr-sm-2">
+                              <input class="order-form-input" placeholder="Postal / Zip Code">
+                            </div>
+                            <div class="col-12 col-sm-6 mt-2 pl-sm-0">
+                              <input class="order-form-input" placeholder="Country">
+                            </div>
+                          </div>
+
+                          <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="validation" id="validation"
+                                  value="1">
+                                <label for="validation" class="form-check-label">I know what I need to know</label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row mt-5 container">
+                            <div class="col-lg-12 row">
+                              <button onclick="submit" type="submit" class="btn btn-danger text-center">Submit</button>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-dark text-warning m-2"><i class="fa">&#xf07a;</i></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=".//images/gallery.jpg" class="d-block w-100" style="height: 600px;" alt="..." />
+      <div style="position: absolute; top: 50%;" class="carousel-caption mt-50  d-md-block">
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!----------------------------------------------------------------------------------------------------->
+  <div class="container gallery-container">
+
+    <h1>CAKES</h1>
+
+    <p class="page-description text-center">Some Outlooks Of Our Creativity</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href=".//gallery images/cake01.jpg">
+            <img src=".//gallery images/cake01.jpg" alt="Bridge">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cake02.jpg">
+            <img src=".//gallery images/cake02.jpg" alt="Park">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cake04.jpg">
+            <img src=".//gallery images/cake04.jpg" alt="Tunnel">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a class="lightbox" href=".//gallery images/cakebig1.png">
+            <img src=".//gallery images/cakebig1.png" alt="Traffic">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cake03.jpg">
+            <img src=".//gallery images/cake03.jpg" alt="Coast">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!---------------------------------------------------------------------------------------------->
+
+  <div class="container gallery-container">
+
+    <h1>CUP CAKES</h1>
+
+    <p class="page-description text-center">Some Outlooks Of Our Creativity</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href=".//gallery images/cupcake1.jpg">
+            <img src=".//gallery images/cupcake1.jpg" alt="Bridge">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cupcake2.jpg">
+            <img src=".//gallery images/cupcake2.jpg" alt="Park">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cupcake3.jpg">
+            <img src=".//gallery images/cupcake3.jpg" alt="Tunnel">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a class="lightbox" href=".//gallery images/cupcakebig1.jpg">
+            <img src=".//gallery images/cupcakebig1.jpg" alt="Traffic">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cupcake4.jpg">
+            <img src=".//gallery images/cupcake4.jpg" alt="Coast">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!------------------------------------------------------------------------------------------------------------>
+  <div class="container gallery-container">
+
+    <h1>BROWNIE</h1>
+
+    <p class="page-description text-center">Some Outlooks Of Our Creativity</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href=".//gallery images/brownie1.jpg">
+            <img src=".//gallery images/brownie1.jpg" alt="Bridge">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/brownie2.jpg">
+            <img src=".//gallery images/brownie2.jpg" alt="Park">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/brownie3.jpg">
+            <img src=".//gallery images/brownie3.jpg" alt="Tunnel">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a class="lightbox" href=".//gallery images/browniebig2.jpg">
+            <img src=".//gallery images/browniebig2.jpg" alt="Traffic">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/brownie4.jpg">
+            <img src=".//gallery images/brownie4.jpg" alt="Coast">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!------------------------------------------------------------------------------------------------------------>
+  <div class="container gallery-container">
+
+    <h1>DESSERT</h1>
+
+    <p class="page-description text-center">Some Outlooks Of Our Creativity</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href=".//gallery images/dessert.jpg">
+            <img src=".//gallery images/dessert.jpg" alt="Bridge">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/dessert1.jpg">
+            <img src=".//gallery images/dessert1.jpg" alt="Park">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/dessert2.jpg">
+            <img src=".//gallery images/dessert2.jpg" alt="Tunnel">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a class="lightbox" href=".//gallery images/dessertbig1.jpg">
+            <img src=".//gallery images/dessertbig1.jpg" alt="Traffic">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/dessert4.jpg">
+            <img src=".//gallery images/dessert4.jpg" alt="Coast">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!------------------------------------------------------------------------------------------------------------>
+  <div class="container gallery-container">
+
+    <h1>COOKIES</h1>
+
+    <p class="page-description text-center">Some Outlooks Of Our Creativity</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href=".//gallery images/cookie10.jpg">
+            <img src=".//gallery images/cookie10.jpg" alt="Bridge">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cookie11.jpg">
+            <img src=".//gallery images/cookie555555.jpg" alt="Park">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cookie12.jpg">
+            <img src=".//gallery images/cookie12.jpg" alt="Tunnel">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a class="lightbox" href=".//gallery images/cookiebig1.jpg">
+            <img src=".//gallery images/cookiebig1.jpg" alt="Traffic">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href=".//gallery images/cookie4.webp">
+            <img src=".//gallery images/cookie55555.jpg" alt="Coast">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!----------------------------------------------------------------------------------------------------------->
+  <footer class="text-center text-lg-start bg-warning text-dark">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com/" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/login" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/login" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>THE SWEET TOOTH
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><a
+                href="https://www.google.com/maps/place/622+Broadway,+New+York,+NY+10012,+USA/@40.7256862,-73.9959951,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598f96996bcf:0xa093bcde3389fd6a!8m2!3d40.7256862!4d-73.9959951"><i
+                  class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</a> </p>
+            <p>
+              <a href="https://mail.google.com/"> <i class="fas fa-envelope me-3 text-secondary"></i>
+                info@example.com </a>
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div> -->
+    <!-- Copyright -->
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+</body>
+
+</html>
